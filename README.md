@@ -5,6 +5,11 @@
 ### Overview
 This project showcases the process of fine-tuning the DistilBERT model to perform sentiment analysis on financial text data. The aim is to enhance the model's ability to accurately classify sentiments within financial documents by experimenting with different training techniques, learning rates, and strategies to handle class imbalances. Through detailed error analysis and multiple experimental setups, this project achieves high accuracy and provides valuable insights into optimizing large language models for specific tasks in the financial domain.
 
+### Run on Google Colab
+You can also run the project on Google Colab using the following link: [Colab Notebook](https://colab.research.google.com/drive/18egCEmEa5H4ablxko7eVpdYMe-as15NQ?usp=sharing).
+
+**Note:** Enable GPU for training the model. The free GPU provided by Colab will work.
+
 ### Key Features
 - **Data Loading and Preprocessing**: Utilizing the `datasets` library to load the financial phrasebank dataset and preprocessing it for model training.
 - **Model Training**: Experimenting with different approaches like training only the classifier head, fine-tuning the entire model, and employing various learning rate strategies.
@@ -35,11 +40,6 @@ This project showcases the process of fine-tuning the DistilBERT model to perfor
     - Fine-tune the DistilBERT model.
     - Evaluate and analyze the model's performance.
 
-### Run on Google Colab
-You can also run the project on Google Colab using the following link: [Colab Notebook](https://colab.research.google.com/drive/18egCEmEa5H4ablxko7eVpdYMe-as15NQ?usp=sharing).
-
-**Note:** Enable GPU for training the model. The free GPU provided by Colab will work.
-
 ### Detailed Project Content
 - **Basic Assignment 1**: Training only the classifier head using DistilBERT with default Adam optimizer settings, evaluating the performance on training, validation, and test sets.
 - **Basic Assignment 2**: Fine-tuning all layers of the DistilBERT model except the pre-trained classifier head, leveraging the previously trained head for better performance.
@@ -53,16 +53,8 @@ You can also run the project on Google Colab using the following link: [Colab No
 ### Results
 The project achieves significant improvements in sentiment classification accuracy on financial texts, with experiments demonstrating the effectiveness of various training and optimization techniques.
 
-### License
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
 ### Contributing
 Feel free to submit issues or pull requests for improvements or new features.
-
-### Acknowledgements
-- Hugging Face for the Transformers library.
-- TensorFlow for the deep learning framework.
-- Authors of the financial phrasebank dataset.
 
 ### Contact
 For questions or suggestions, please feel free to contact me or raise an issue on the repo.
