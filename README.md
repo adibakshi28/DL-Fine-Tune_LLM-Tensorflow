@@ -1,4 +1,4 @@
-# DL-Fine-Tune_LLM
+# DL-Fine-Tune_LLM-Tensorflow
 
 ## Enhancing Financial Sentiment Analysis with Fine-Tuned DistilBERT
 
@@ -20,8 +20,8 @@ You can also run the project on Google Colab using the following link: [Colab No
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/adibakshi28/DL-Fine-Tune_LLM.git
-    cd DL-Fine-Tune_LLM
+    git clone https://github.com/adibakshi28/DL-Fine-Tune_LLM-Tensorflow.git
+    cd DL-Fine-Tune_LLM-Tensorflow
     ```
 
 2. Install the required packages:
