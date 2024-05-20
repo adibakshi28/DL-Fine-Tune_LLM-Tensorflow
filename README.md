@@ -1,4 +1,4 @@
-# DL-Fine-Tune_LLM-Tensorflow
+# Fine Tuning LLM (Using Tensorflow)
 
 ## Enhancing Financial Sentiment Analysis with Fine-Tuned DistilBERT
 
