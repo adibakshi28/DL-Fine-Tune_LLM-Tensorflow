@@ -30,6 +30,7 @@ Each record in the dataset consists of:
 - `2`: Positive
 
 #### Example Entries
+[Dataset](https://huggingface.co/datasets/takala/financial_phrasebank)
 
 | ID  | Text                                                                                       | Sentiment |
 |-----|---------------------------------------------------------------------------------------------|-----------|
