@@ -11,6 +11,7 @@ You can also run the project on Google Colab using the following link: [Colab No
 **Note:** Enable GPU for training the model. The free GPU provided by Colab will work.
 
 ### Dataset Structure
+[Dataset](https://huggingface.co/datasets/takala/financial_phrasebank)
 
 Each record in the dataset consists of:
 
@@ -30,7 +31,6 @@ Each record in the dataset consists of:
 - `2`: Positive
 
 #### Example Entries
-[Dataset](https://huggingface.co/datasets/takala/financial_phrasebank)
 
 | ID  | Text                                                                                       | Sentiment |
 |-----|---------------------------------------------------------------------------------------------|-----------|
